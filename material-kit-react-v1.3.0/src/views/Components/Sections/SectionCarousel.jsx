@@ -45,7 +45,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h3>
-                        <a style={white} href=""><i className="fab fa-github" /><p> </p>Web Development Work</a>
+                        <a style={white} href="https://github.com/nubdub/Website-Dev" target="_blank"><i className="fab fa-github" /><p> </p>Web Development Work</a>
                       </h3>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h3>
-                        <a style={dark} href=""><i className="fab fa-github" /><p> </p>Sentimentally</a>
+                        <a style={dark} href="https://devpost.com/software/sentimentally" target="_blank"><i className="fab fa-github" /><p> </p>Sentimentally</a>
                       </h3>
                     </div>
                   </div>
@@ -71,7 +71,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h3>
-                        <a style={dark} href=""><i className="fab fa-github" /><p> </p>Sentimentally.js (Node.js backend)</a>
+                        <a style={dark} href="https://github.com/nubdub/SentimentallyJS" target="_blank"><i className="fab fa-github" /><p> </p>Sentimentally.js (Node.js backend)</a>
                       </h3>
                     </div>
                   </div>
@@ -85,7 +85,7 @@ class SectionCarousel extends React.Component {
                     <div className="slick-caption">
                       <Button color="primary">
                         <h3>
-                          <a style={white} href=""><i className="fa fa-terminal" /><p> </p>Register for VTHacks VI!</a>
+                          <a style={white} href="https://vthacks.com" target="_blank"><i className="fa fa-terminal" /><p> </p>Register for VTHacks VI!</a>
                         </h3>
                       </Button>
                     </div>
@@ -99,7 +99,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                         <h3>
-                          <a style={white} href=""><i className="fab fa-github" /><p> </p>This Website!</a>
+                          <a style={white} href="https://github.com/nubdub/Personal-Website-2.0" target="_blank"><i className="fab fa-github" /><p> </p>This Website!</a>
                         </h3>
                     </div>
                   </div>
