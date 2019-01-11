@@ -117,12 +117,18 @@ class LandingPage extends React.Component {
                       tabButton: "Involvement",
                       tabIcon: DashboardIcon,
                       tabContent: (
-                        <CustomTabs
-                          headerColor="success"
+                        <NavPills
+                          color="success"
+                          horizontal={
+                            {
+                              tabsGrid: { xs: 12, sm: 4, md: 4 },
+                              contentGrid: { xs: 12, sm: 8, md: 8 }
+                            }
+                          }
                           tabs={
                             [
                               {
-                                tabName: "VP of Web Development @ VT",
+                                tabButton: "VP of Web Development @ VT",
                                 tabContent: (
                                   <div>
                                     <p style={darkFont}>
@@ -138,7 +144,7 @@ class LandingPage extends React.Component {
                                 )
                               },
                               {
-                                tabName: "VTHacks PR Committee",
+                                tabButton: "VTHacks PR Committee",
                                 tabContent: (
                                   <div>
                                     <p style={darkFont}>
@@ -155,7 +161,7 @@ class LandingPage extends React.Component {
                                 )
                               },
                               {
-                                tabName: "VT CS Student Ambassador",
+                                tabButton: "VT CS Student Ambassador",
                                 tabContent: (
                                   <div>
                                     <p style={darkFont}>
@@ -176,12 +182,18 @@ class LandingPage extends React.Component {
                       tabButton: "Resume",
                       tabIcon: Assignment,
                       tabContent: (
-                        <CustomTabs
-                          headerColor="info"
+                        <NavPills
+                          color="info"
+                          horizontal={
+                            {
+                              tabsGrid: { xs: 12, sm: 4, md: 4 },
+                              contentGrid: { xs: 12, sm: 8, md: 8 }
+                            }
+                          }
                           tabs={
                             [
                               {
-                                tabName: "Software Development Intern",
+                                tabButton: "Software Development Intern",
                                 tabContent: (
                                   <div>
                                     <h4 style={darkFont}>Company: Long & Foster</h4>
@@ -198,7 +210,7 @@ class LandingPage extends React.Component {
                                 )
                               },
                               {
-                                tabName: "SWAT Technician",
+                                tabButton: "SWAT Technician",
                                 tabContent: (
                                   <div>
                                     <h4 style={darkFont}>Company: VT College of Engineering</h4>
@@ -219,7 +231,7 @@ class LandingPage extends React.Component {
                                 )
                               },
                               {
-                                tabName: "Undergraduate Research Assistant",
+                                tabButton: "Undergraduate Research Assistant",
                                 tabContent: (
                                   <div>
                                     <h4 style={darkFont}>Company: VT Biocomplexity Institute</h4>
@@ -234,7 +246,7 @@ class LandingPage extends React.Component {
                                 )
                               },
                               {
-                                tabName: "Github Organization Coordinator",
+                                tabButton: "Github Organization Coordinator",
                                 tabContent: (
                                   <div>
                                     <h4 style={darkFont}>Company: Virginia Tech</h4>

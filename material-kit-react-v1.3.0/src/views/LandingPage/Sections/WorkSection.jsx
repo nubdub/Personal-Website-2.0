@@ -65,7 +65,7 @@ class WorkSection extends React.Component {
                     md={4}
                     className={classes.textCenter}
                   >
-                    <Button type="submit" onClick={() => alert('Your email has been sent to nabdeep@vt.edu!')} color="primary">Send Message</Button>
+                    <Button type="submit" onClick={() => alert('Sending email!')} color="primary">Send Message</Button>
                   </GridItem>
                 </GridContainer>
               </GridContainer>
