@@ -12,8 +12,15 @@ import Reader from "@material-ui/icons/ChromeReaderMode";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 import ImportantDevices from "@material-ui/icons/ImportantDevices";
 
-
+// Images
 import Profile from "assets/img/faces/profile-pic.jpg";
+import WDVT from "assets/img/wdvt.PNG";
+import VTHacks from "assets/img/vthacks2.PNG";
+import VTCS from "assets/img/vtcs.PNG";
+import LNF from "assets/img/lnf.jpg";
+import Torg from "assets/img/torg.jpg";
+import Bio from "assets/img/bio.jpg";
+import Github from "assets/img/git.jpg";
 
 
 // core components
@@ -25,17 +32,14 @@ import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
-import CustomTabs from "components/CustomTabs/CustomTabs.jsx"
 import Badge from "components/Badge/Badge.jsx";
 import SectionCarousel from "views/Components/Sections/SectionCarousel.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.jsx";
-import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
-import Dashboard from "@material-ui/core/SvgIcon/SvgIcon";
+
 
 const dashboardRoutes = [];
 
@@ -50,6 +54,10 @@ class LandingPage extends React.Component {
     const darkFont = {
       color: 'black'
     };
+    const imgSize = {
+      width: "100%",
+      height: "auto"
+    }
     return (
       <div>
         <Header
@@ -94,7 +102,7 @@ class LandingPage extends React.Component {
                         <GridContainer>
                           <GridItem xs={12} sm={3}>
                             <div>
-                              <img src={Profile} alt="Profile Pic" className="SectionTypography-imgRounded-647 SectionTypography-imgFluid-646"/>
+                              <img src={Profile} alt="Profile Pic" style={imgSize}/>
                             </div>
                           </GridItem>
                           <GridItem xs={12} sm={9}>
@@ -131,6 +139,8 @@ class LandingPage extends React.Component {
                                 tabButton: "VP of Web Development @ VT",
                                 tabContent: (
                                   <div>
+                                    <a href="https://wdvt.github.io/?fbclid=IwAR2BKi4NMP0JBaCE_2-ABNjZljJuxN8ovkMeZ1r57qxGguHJr56QaFGhVGA" target="_blank"><img src={WDVT} style={imgSize} alt="WD@VT"/></a>
+                                    <hr/>
                                     <p style={darkFont}>
                                       WD@VT specializes in teaching beginner web development skills
                                       through weekly workshops where we develop mini projects. As Vice President, I
@@ -147,9 +157,11 @@ class LandingPage extends React.Component {
                                 tabButton: "VTHacks PR Committee",
                                 tabContent: (
                                   <div>
+                                    <a href="https://vthacks.com/" target="_blank"><img style={imgSize} src={VTHacks} alt="VTHacks"/></a>
+                                    <hr/>
                                     <p style={darkFont}>
                                       VTHacks is the organization responsible for setting up the VTHacks hackathon.
-                                      Our hackathon is one of the largest in the Southeast, hosting over 500 particpants.
+                                      Our hackathon is one of the largest in the Southeast, hosting over 500 participants.
                                       As a member of the Public Relations committee, we are responsible for using a wide
                                       range of media to build and sustain a good image for VTHacks and engaging the
                                       audience with information about new promotional updates and current progress.
@@ -164,6 +176,8 @@ class LandingPage extends React.Component {
                                 tabButton: "VT CS Student Ambassador",
                                 tabContent: (
                                   <div>
+                                    <img style={imgSize} src={VTCS} alt="VT CS"/>
+                                    <hr/>
                                     <p style={darkFont}>
                                       As a CS Ambassador, I assist the department with their yearly recruiting efforts,
                                       such as volunteering at family information sessions. I also assist with hosting
@@ -196,6 +210,8 @@ class LandingPage extends React.Component {
                                 tabButton: "Software Development Intern",
                                 tabContent: (
                                   <div>
+                                    <img src={LNF} alt="Long & Foster" style={imgSize}/>
+                                    <hr/>
                                     <h4 style={darkFont}>Company: Long & Foster</h4>
                                     <h4 style={darkFont}>Location: Chantilly, VA</h4>
                                     <h4 style={darkFont}>June 2018 - August 2018</h4>
@@ -213,6 +229,8 @@ class LandingPage extends React.Component {
                                 tabButton: "SWAT Technician",
                                 tabContent: (
                                   <div>
+                                    <img src={Torg} alt="Torgersen Hall" style={imgSize}/>
+                                    <hr/>
                                     <h4 style={darkFont}>Company: VT College of Engineering</h4>
                                     <h4 style={darkFont}>Location: Blacksburg, VA</h4>
                                     <h4 style={darkFont}>August 2018 - Present</h4>
@@ -234,6 +252,8 @@ class LandingPage extends React.Component {
                                 tabButton: "Undergraduate Research Assistant",
                                 tabContent: (
                                   <div>
+                                    <img src={Bio} alt="VT Biocomplexity Institute" style={imgSize}/>
+                                    <hr/>
                                     <h4 style={darkFont}>Company: VT Biocomplexity Institute</h4>
                                     <h4 style={darkFont}>Location: Blacksburg, VA</h4>
                                     <h4 style={darkFont}>September 2018 - December 2018</h4>
@@ -249,13 +269,15 @@ class LandingPage extends React.Component {
                                 tabButton: "Github Organization Coordinator",
                                 tabContent: (
                                   <div>
+                                    <img src={Github} alt="Explore Githbu" style={imgSize}/>
+                                    <hr/>
                                     <h4 style={darkFont}>Company: Virginia Tech</h4>
                                     <h4 style={darkFont}>Location: Blacksburg, VA</h4>
                                     <h4 style={darkFont}>December 2018 - Present</h4>
                                     <p style={darkFont}>
                                       Promote Git and Github usage across campus by organizing workshops for beginners and
                                       advanced users, consult with professors on how to incorporate Git/Github usage in their curriculum,
-                                      and hold office hours for students who need assistnace with Git.
+                                      and hold office hours for students who need assistance with Git.
                                     </p>
                                   </div>
                                 )
