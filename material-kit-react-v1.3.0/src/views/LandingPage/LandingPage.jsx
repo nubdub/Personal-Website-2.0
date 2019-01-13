@@ -292,21 +292,38 @@ class LandingPage extends React.Component {
                       tabIcon: Reader,
                       tabContent: (
                         <div>
-                          <Badge color="primary">CS 1114 Intro to Software Design</Badge>
-                          <br/>
-                          <Badge color="primary">CS 2114 Software Design and Data Structures</Badge>
-                          <br/>
-                          <Badge color="primary">MATH 2114 Linear Algebra</Badge>
-                          <br/>
-                          <Badge color="primary">MATH 2534 Discrete Math</Badge>
-                          <br/>
-                          <Badge color="primary">CS 2505 Computer Organization I</Badge>
-                          <br/>
-                          <Badge color="primary">CS 2304 Intro to SQL and Database Management</Badge>
-                          <br/>
-                          <Badge color="primary">CS 2104 Intro to Problem Solving in CS</Badge>
-                          <br/>
-                          <Badge color="primary">MATH 3134 Applied Combinatorics and Graph Theory</Badge>
+                          <GridContainer>
+                            <GridItem xs={6}>
+                              <h4 style={darkFont}>Completed Courses</h4>
+                              <hr/>
+                              <Badge color="success">CS 1114 Intro to Software Design</Badge>
+                              <br/>
+                              <Badge color="success">CS 2114 Software Design and Data Structures</Badge>
+                              <br/>
+                              <Badge color="success">MATH 2114 Linear Algebra</Badge>
+                              <br/>
+                              <Badge color="success">MATH 2534 Discrete Math</Badge>
+                              <br/>
+                              <Badge color="success">CS 2505 Computer Organization I</Badge>
+                              <br/>
+                              <Badge color="success">CS 2304 Intro to SQL and Database Management</Badge>
+                              <br/>
+                              <Badge color="success">CS 2104 Intro to Problem Solving in CS</Badge>
+                              <br/>
+                              <Badge color="success">MATH 3134 Applied Combinatorics and Graph Theory</Badge>
+                            </GridItem>
+                            <GridItem xs={6}>
+                              <h4 style={darkFont}>Currently Enrolled</h4>
+                              <hr/>
+                              <Badge color="info">CS 3114 Data Structures and Algorithms</Badge>
+                              <br/>
+                              <Badge color="info">CS 2506 Computer Organization II</Badge>
+                              <br/>
+                              <Badge color="info">STAT 4705 Statistics for Engineers</Badge>
+                              <br/>
+                              <Badge color="info">MATH 4175 Cryptography I</Badge>
+                            </GridItem>
+                          </GridContainer>
                         </div>
                       )
                     },
