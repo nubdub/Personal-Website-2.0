@@ -21,6 +21,12 @@ import LNF from "assets/img/lnf.jpg";
 import Torg from "assets/img/torg.jpg";
 import Bio from "assets/img/bio.jpg";
 import Github from "assets/img/git.jpg";
+import Bridge from "assets/img/bridge.PNG";
+import Senti from "assets/img/sentimentally.PNG";
+import OldSite from "assets/img/oldsite.PNG";
+import NewSite from "assets/img/newsite.PNG";
+import WebDev from "assets/img/webdev.PNG";
+import Other from "assets/img/gitprofile.PNG";
 
 
 // core components
@@ -107,7 +113,7 @@ class LandingPage extends React.Component {
                           </GridItem>
                           <GridItem xs={12} sm={9}>
                             <span>
-                              <p style={darkFont}>
+                              <h4 style={darkFont}>
                                 I am currently planning on graduating a year early with my Bachelor's degree; my expected graduation date is May 2020. I am primarily interested
                                 in Full Stack Development, but I am still in the process of exploring different fields within the Computer Science industry
                                 and I am open to anything.
@@ -115,8 +121,11 @@ class LandingPage extends React.Component {
                                 <br />
                                 Outside of coding, I have played guitar for seven years; I am a big rock and metal fan. I also enjoy lifting, trying new food,
                                 and watching basketball.
-                              </p>
+                              </h4>
                             </span>
+                          </GridItem>
+                          <GridItem xs={12}>
+
                           </GridItem>
                         </GridContainer>
                       )
@@ -330,7 +339,128 @@ class LandingPage extends React.Component {
                     {
                       tabButton: "Projects",
                       tabIcon: ImportantDevices,
-                      tabContent: (<SectionCarousel/>)
+                      tabContent: (
+                        <NavPills
+                          color="warning"
+                          horizontal={
+                            {
+                              tabsGrid: { xs: 12, sm: 4, md: 4 },
+                              contentGrid: { xs: 12, sm: 8, md: 8 }
+                            }
+                          }
+                          tabs={[
+                            {
+                              tabButton: 'Web Development Work',
+                              tabContent: (
+                                <div>
+                                  <img src={WebDev} alt="WebDev Repo" style={imgSize}/>
+                                  <hr/>
+                                  <p style={darkFont}>This is a directory of all of my Web Development work. I have projects
+                                  from Web Development @ VT meetings to personal work on here!</p>
+                                  <Button color="warning" href="https://github.com/nubdub/Website-Dev" target="_blank">
+                                    <i className="fab fa-github"/>Repository</Button>
+                                </div>
+                              )
+                            },
+                            {
+                              tabButton: 'Sentimentally',
+                              tabContent: (
+                                <div>
+                                  <img style={imgSize} src={Senti} alt="Sentimentally"/>
+                                  <hr/>
+                                  <p style={darkFont}>
+                                    Sentimentally is a web application that my team and I developed for PatriotHacks 2018.
+                                    Its main purpose is to perform sentiment analysis on Tweets related to a user-inputted term
+                                    and display the sentiment score of each tweet and the average sentiment score on the topic.
+                                    My primary role for this project was to develop the front-end user interface with HTML, CSS,
+                                    Javascript, Bootstrap.css, Chart.js, and Swiper.js. Chart.js was used to display the
+                                    sentiment score on a graph and Swiper.js was used to display the tweets in a coverflow element.
+                                    The back-end was written in Python and utilized Python Flask, Tweepy, Twitter Search API, and Textblob.
+                                    Flask helped with creating the API routes, Tweepy was used to consume the Twitter Search API, and
+                                    Textblob was the library that was responsible for performing sentiment analysis. Our project
+                                    eventually won Verizon's "Best Use of Open Source Intelligence" award for utilizing multiple
+                                    libraries and frameworks to develop this app. I later reimplemented the back-end using Node.js
+                                    and Express.js and changed the form submission on the front-end to make Ajax calls to improve
+                                    performance.
+                                  </p>
+                                  <Button color="warning" target="_blank" href="https://devpost.com/software/sentimentally">
+                                    <i className="fab fa-dev"></i>Sentimentally.py</Button>
+                                  <Button color="warning" target="_blank" href="https://github.com/nubdub/SentimentallyJS"><i className="fab fa-github"/>Sentimentally.js</Button>
+                                </div>
+                              )
+                            },
+                            {
+                              tabButton: 'Bridge and Torch Calculator',
+                              tabContent: (
+                                <div>
+                                  <img style={imgSize} src={Bridge} alt="Bridge and Torch Website"/>
+                                  <hr/>
+                                  <p style={darkFont}>
+                                    This website was developed as an assignment for CS 2104 Intro to Problem Solving.
+                                    The purpose of the assignment is to create a website that solves a famous puzzle, so
+                                    my implementation solves the Bridge and Torch problem with 4 people crossing. The
+                                    initial version of the project utilized a Python backend to calculate the problem, but
+                                    I rewrote it so that the calculations are performed on the browser side with Javascript.
+                                    I used the Bootstrap.css framework to style my website and I deployed it on Google Cloud
+                                    Platform.
+                                  </p>
+                                  <Button color="warning" href="https://ninth-keyword-221616.appspot.com/" target="_blank">
+                                    <i className="fas fa-external-link-alt"></i>Check out my project!</Button>
+                                </div>
+                              )
+                            },
+                            {
+                              tabButton: 'Personal Website 1.0',
+                              tabContent: (
+                                <div>
+                                  <img src={OldSite} alt="Old Website" style={imgSize}/>
+                                  <hr/>
+                                  <p style={darkFont}>
+                                    This used to be my personal portfolio website. It was designed during Web Development
+                                    @ VT meetings and utilizes Bootstrap.css styling and jQuery for animations. I have moved
+                                    on from this website but you can still check it out!
+                                  </p>
+                                  <Button color="warning" href="https://nubdub.github.io" target="_blank">
+                                    <i className="fas fa-external-link-alt"></i>Check out my old website!</Button>
+                                  <Button color="warning" href="https://github.com/nubdub/nubdub.github.io"><i className="fab fa-github"/>Repository</Button>
+                                </div>
+                              )
+                            },
+                            {
+                              tabButton: 'This Website! (Personal Website 2.0)',
+                              tabContent: (
+                                <div>
+                                  <img src={NewSite} alt="New Website" style={imgSize}/>
+                                  <hr/>
+                                  <p style={darkFont}>
+                                    This is version 2.0 of my personal website. In an attempt to learn React.js, I came across the
+                                    Material UI component library and decided to redesign my website using Material UI, which
+                                    is the product you are seeing now! I also decided to change my hosting platform from Github Pages
+                                    to Google Firebase. I will continue to update this website as I continue
+                                    my student and professional life.
+                                  </p>
+                                  <Button color="warning" href="#" target="_blank"><i className="fas fa-redo-alt"></i></Button>
+                                  <Button color="warning" href="https://github.com/nubdub/Personal-Website-2.0"><i className="fab fa-github"/>Repository</Button>
+                                </div>
+                              )
+                            },
+                            {
+                              tabButton: 'Other Stuff',
+                              tabContent: (
+                                <div>
+                                  <img src={Other} alt="Git Profile" style={imgSize}/>
+                                  <hr/>
+                                  <p style={darkFont}>
+                                    Feel free to check out some of my other projects on Github! I have projects that have dealt
+                                    with database work, trying out Spring Boot, Android development, etc.
+                                  </p>
+                                  <Button color="warning" href="https://github.com/nubdub/"><i className="fab fa-github"/>Repository</Button>
+                                </div>
+                              )
+                            }
+                          ]}
+                        />
+                      )
                     },
                     {
                       tabButton: "Contact",
