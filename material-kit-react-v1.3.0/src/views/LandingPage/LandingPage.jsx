@@ -108,7 +108,7 @@ class LandingPage extends React.Component {
                         <GridContainer>
                           <GridItem xs={12} sm={3}>
                             <div>
-                              <img src={Profile} alt="Profile Pic" style={imgSize}/>
+                              <img src={Profile} alt="Profile Pic" style={imgSize} className={classes.imgRounded}/>
                             </div>
                           </GridItem>
                           <GridItem xs={12} sm={9}>
@@ -116,16 +116,13 @@ class LandingPage extends React.Component {
                               <h4 style={darkFont}>
                                 I am currently planning on graduating a year early with my Bachelor's degree; my expected graduation date is May 2020. I am primarily interested
                                 in Full Stack Development, but I am still in the process of exploring different fields within the Computer Science industry
-                                and I am open to anything.
+                                and I am open to anything. I have a strong background in object oriented programming and my most proficient language is Java.
                                 <br />
                                 <br />
-                                Outside of coding, I have played guitar for seven years; I am a big rock and metal fan. I also enjoy lifting, trying new food,
+                                Outside of coding, I have played guitar for seven years; I am a big rock and metal fan. I also enjoy lifting, gaming, trying new food,
                                 and watching basketball.
                               </h4>
                             </span>
-                          </GridItem>
-                          <GridItem xs={12}>
-
                           </GridItem>
                         </GridContainer>
                       )
@@ -332,6 +329,9 @@ class LandingPage extends React.Component {
                               <br/>
                               <Badge color="info">MATH 4175 Cryptography I</Badge>
                             </GridItem>
+                          </GridContainer>
+                          <GridContainer>
+
                           </GridContainer>
                         </div>
                       )

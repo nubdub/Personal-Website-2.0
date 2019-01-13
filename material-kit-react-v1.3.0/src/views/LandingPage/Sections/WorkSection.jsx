@@ -11,6 +11,7 @@ import CustomInput from "components/CustomInput/CustomInput.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 
 import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx";
+import InputAdornment from "@material-ui/core/InputAdornment/InputAdornment";
 
 class WorkSection extends React.Component {
   render() {
@@ -33,6 +34,13 @@ class WorkSection extends React.Component {
                     formControlProps={{
                       fullWidth: true
                     }}
+                    inputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">
+                          <i className="fas fa-user" />
+                        </InputAdornment>
+                      )}
+                    }
                   />
                 </GridItem>
                 <GridItem xs={12} sm={12} md={6}>
@@ -43,6 +51,13 @@ class WorkSection extends React.Component {
                     formControlProps={{
                       fullWidth: true
                     }}
+                    inputProps={{
+                      endAdornment: (
+                      <InputAdornment position="end">
+                        <i className="fas fa-at" />
+                      </InputAdornment>
+                      )}
+                    }
                   />
                 </GridItem>
                 <CustomInput
@@ -55,7 +70,12 @@ class WorkSection extends React.Component {
                   }}
                   inputProps={{
                     multiline: true,
-                    rows: 5
+                    rows: 5,
+                    endAdornment: (
+                      <InputAdornment position="end">
+                        <i className="far fa-comment-alt" />
+                      </InputAdornment>
+                    )
                   }}
                 />
                 <GridContainer justify="center">
