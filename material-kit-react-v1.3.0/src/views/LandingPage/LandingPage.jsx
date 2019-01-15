@@ -385,7 +385,7 @@ class LandingPage extends React.Component {
                                   </p>
                                   <Button color="warning" target="_blank" href="https://devpost.com/software/sentimentally">
                                     <i className="fab fa-dev"></i>Sentimentally.py</Button>
-                                  <Button color="warning" target="_blank" href="https://github.com/nubdub/SentimentallyJS"><i className="fab fa-github"/>Sentimentally.js</Button>
+                                  <Button color="warning" target="_blank" href="https://sentimentallyjs.firebaseapp.com"><i className="fas fa-external-link-alt"/>Sentimentally.js</Button>
                                 </div>
                               )
                             },
