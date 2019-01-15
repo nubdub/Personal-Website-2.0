@@ -381,10 +381,11 @@ class LandingPage extends React.Component {
                                     eventually won Verizon's "Best Use of Open Source Intelligence" award for utilizing multiple
                                     libraries and frameworks to develop this app. I later reimplemented the back-end using Node.js
                                     and Express.js and changed the form submission on the front-end to make Ajax calls to improve
-                                    performance.
+                                    performance. I deployed the static portion of Sentimentally.js on Google Firebase and the back-end
+                                    on Google Cloud Platform.
                                   </p>
                                   <Button color="warning" target="_blank" href="https://devpost.com/software/sentimentally">
-                                    <i className="fab fa-dev"></i>Sentimentally.py</Button>
+                                    <i className="fas fa-code"></i>Sentimentally.py</Button>
                                   <Button color="warning" target="_blank" href="https://sentimentallyjs.firebaseapp.com"><i className="fas fa-external-link-alt"/>Sentimentally.js</Button>
                                 </div>
                               )
