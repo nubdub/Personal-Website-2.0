@@ -43,6 +43,8 @@ import SectionCarousel from "views/Components/Sections/SectionCarousel.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
+
+
 // Sections for this page
 import WorkSection from "./Sections/WorkSection.jsx";
 
@@ -262,7 +264,7 @@ class LandingPage extends React.Component {
                                     <hr/>
                                     <h4 style={darkFont}>Company: VT Biocomplexity Institute</h4>
                                     <h4 style={darkFont}>Location: Blacksburg, VA</h4>
-                                    <h4 style={darkFont}>September 2018 - December 2018</h4>
+                                    <h4 style={darkFont}>September 2018 - Present</h4>
                                     <p style={darkFont}>
                                       Develop an interactive webpage exhibit that explains the concept
                                       of biological gene expression noise through musical analogy under the direction of
@@ -356,7 +358,13 @@ class LandingPage extends React.Component {
                                   <img src={WebDev} alt="WebDev Repo" style={imgSize}/>
                                   <hr/>
                                   <p style={darkFont}>This is a directory of all of my Web Development work. I have projects
-                                  from Web Development @ VT meetings to personal work on here!</p>
+                                    from Web Development @ VT meetings to personal work on here!</p><br/>
+                                  <p style={darkFont}>
+                                    Lately, I have been trying to get a handle on React.js. I have been working on creating
+                                    a multi-page form where each page is rendered without having to refresh the entire HTML
+                                    document. With this project I have also gotten a deeper understanding of parent-to-child
+                                    and child-to-parent data binding.
+                                  </p>
                                   <Button color="warning" href="https://github.com/nubdub/Website-Dev" target="_blank">
                                     <i className="fab fa-github"/>Repository</Button>
                                 </div>
@@ -423,7 +431,7 @@ class LandingPage extends React.Component {
                                   </p>
                                   <Button color="warning" href="https://nubdub.github.io" target="_blank">
                                     <i className="fas fa-external-link-alt"></i>Check out my old website!</Button>
-                                  <Button color="warning" href="https://github.com/nubdub/nubdub.github.io"><i className="fab fa-github"/>Repository</Button>
+                                  <Button color="warning" href="https://github.com/nubdub/nubdub.github.io" target="_blank"><i className="fab fa-github"/>Repository</Button>
                                 </div>
                               )
                             },
@@ -441,7 +449,7 @@ class LandingPage extends React.Component {
                                     my student and professional life.
                                   </p>
                                   <Button color="warning" href="#" target="_blank"><i className="fas fa-redo-alt"></i></Button>
-                                  <Button color="warning" href="https://github.com/nubdub/Personal-Website-2.0"><i className="fab fa-github"/>Repository</Button>
+                                  <Button color="warning" href="https://github.com/nubdub/Personal-Website-2.0" target="_blank"><i className="fab fa-github"/>Repository</Button>
                                 </div>
                               )
                             },
@@ -455,7 +463,7 @@ class LandingPage extends React.Component {
                                     Feel free to check out some of my other projects on Github! I have projects that have dealt
                                     with database work, trying out Spring Boot, Android development, etc.
                                   </p>
-                                  <Button color="warning" href="https://github.com/nubdub/"><i className="fab fa-github"/>Repository</Button>
+                                  <Button color="warning" href="https://github.com/nubdub/" target="_blank"><i className="fab fa-github"/>Repository</Button>
                                 </div>
                               )
                             }
