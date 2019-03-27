@@ -11,6 +11,12 @@ import Assignment from "@material-ui/icons/Assignment";
 import Reader from "@material-ui/icons/ChromeReaderMode";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 import ImportantDevices from "@material-ui/icons/ImportantDevices";
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typogragphy from '@material-ui/core/Typography';
 
 // Images
 import Profile from "assets/img/faces/profile-pic.jpg";
@@ -215,6 +221,24 @@ class LandingPage extends React.Component {
                           tabs={
                             [
                               {
+                                tabButton: "Machine Learning Intern",
+                                tabContent: (
+                                  <div>
+                                    <img src="https://noblis.org/wp-content/uploads/2017/11/News-RestonMove-1170x600.jpg" alt="Long & Foster" style={imgSize}/>
+                                    <hr/>
+                                    <h4 style={darkFont}>Company: Noblis</h4>
+                                    <h4 style={darkFont}>Location: Reston, VA</h4>
+                                    <h4 style={darkFont}>June 2019 - August 2019</h4>
+                                    <p style={darkFont}>
+                                      This summer, I will be working at Noblis as a Software Engineering intern specializing
+                                      in data analytics, data visualization, and Machine Learning! I am beyond excited to work
+                                      at Noblis and know that whichever project I work on will benefit our nation's intelligence
+                                      and security endeavors!
+                                    </p>
+                                  </div>
+                                )
+                              },
+                              {
                                 tabButton: "Software Development Intern",
                                 tabContent: (
                                   <div>
@@ -371,6 +395,28 @@ class LandingPage extends React.Component {
                               )
                             },
                             {
+                              tabButton: 'CyberStress',
+                              tabContent: (
+                                <div>
+                                  {/*<img src={WebDev} alt="WebDev Repo" style={imgSize}/>*/}
+                                  <hr/>
+                                  <p style={darkFont}>CyberStress was our project for HooHacks 2019. Going for their Best
+                                  Social Hack challenge, my team of four wanted to create an application that could detect
+                                  potential cyberbullying posts on Twitter. Our vision was that parents and school administrators
+                                  could use our application as a tool to determine potential cyberbullying attacks and resolve the issues before
+                                  they escalate any further.</p><br/>
+                                  <p style={darkFont}>
+                                    Our project was implemented using a Node.js with Express back-end. We also trained a neural network
+                                    using the Google Cloud Platform Natural Language Processing API by feeding it words that related
+                                    to a typical cyberbullying tweet. Our front-end was designed using Bootstrap.css, Chart.js, and
+                                    Swiper.js.
+                                  </p>
+                                  <Button color="warning" href="https://github.com/nubdub/Website-Dev" target="_blank">
+                                    <i className="fab fa-github"/>Repository</Button>
+                                </div>
+                              )
+                            },
+                            {
                               tabButton: 'Sentimentally',
                               tabContent: (
                                 <div>
@@ -471,6 +517,64 @@ class LandingPage extends React.Component {
                         />
                       )
                     },
+                    // {
+                    //   tabButton: "Project (dev)",
+                    //   tabIcon: ImportantDevices,
+                    //   tabContent: (
+                    //     <div>
+                    //       <GridContainer>
+                    //         <GridItem xs={6} sm={3}>
+                    //           <Card>
+                    //             <CardMedia
+                    //               image={NewSite}
+                    //               title="This Website!"
+                    //             />
+                    //             <CardContent>
+                    //               <h1 style={darkFont}>Testing</h1>
+                    //               <p style={darkFont}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aut beatae deleniti dolor eligendi illum itaque laboriosam modi odio odit officia, ratione recusandae reiciendis sequi! Animi error ipsum ut.</p>
+                    //             </CardContent>
+                    //             <CardActions>
+                    //               <Button size="small">Learn More</Button>
+                    //             </CardActions>
+                    //           </Card>
+                    //         </GridItem>
+                    //         <GridItem xs={6} sm={3}>
+                    //           <Card>
+                    //             <CardContent>
+                    //               <h1 style={darkFont}>Testing</h1>
+                    //               <p style={darkFont}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aut beatae deleniti dolor eligendi illum itaque laboriosam modi odio odit officia, ratione recusandae reiciendis sequi! Animi error ipsum ut.</p>
+                    //             </CardContent>
+                    //             <CardActions>
+                    //               <Button size="small">Learn More</Button>
+                    //             </CardActions>
+                    //           </Card>
+                    //         </GridItem>
+                    //         <GridItem xs={6} sm={3}>
+                    //           <Card>
+                    //             <CardContent>
+                    //               <h1 style={darkFont}>Testing</h1>
+                    //               <p style={darkFont}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aut beatae deleniti dolor eligendi illum itaque laboriosam modi odio odit officia, ratione recusandae reiciendis sequi! Animi error ipsum ut.</p>
+                    //             </CardContent>
+                    //             <CardActions>
+                    //               <Button size="small">Learn More</Button>
+                    //             </CardActions>
+                    //           </Card>
+                    //         </GridItem>
+                    //         <GridItem xs={6} sm={3}>
+                    //           <Card>
+                    //             <CardContent>
+                    //               <h1 style={darkFont}>Testing</h1>
+                    //               <p style={darkFont}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aut beatae deleniti dolor eligendi illum itaque laboriosam modi odio odit officia, ratione recusandae reiciendis sequi! Animi error ipsum ut.</p>
+                    //             </CardContent>
+                    //             <CardActions>
+                    //               <Button size="small">Learn More</Button>
+                    //             </CardActions>
+                    //           </Card>
+                    //         </GridItem>
+                    //       </GridContainer>
+                    //     </div>
+                    //   )
+                    // },
                     {
                       tabButton: "Contact",
                       tabIcon: Contact,
