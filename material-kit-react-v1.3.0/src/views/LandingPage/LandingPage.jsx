@@ -93,7 +93,7 @@ class LandingPage extends React.Component {
                 <h1 className="LandingPage-title-1">Welcome to my Page!</h1>
                 <br/>
                 <h4>
-                  Computer Science Junior at Virginia Tech.
+                  Computer Science Undergraduate at Virginia Tech.
                 </h4>
                 <br />
               </GridItem>
@@ -122,7 +122,7 @@ class LandingPage extends React.Component {
                           <GridItem xs={12} sm={9}>
                             <span>
                               <h4 style={darkFont}>
-                                I am currently planning on graduating a year early with my Bachelor's degree; my expected graduation date is May 2020. I am primarily interested
+                                I am currently a second year student expected to graduate May 2020. I am primarily interested
                                 in Full Stack Development, but I am still in the process of exploring different fields within the Computer Science industry
                                 and I am open to anything. I have a strong background in object oriented programming and my most proficient language is Java.
                                 <br />
@@ -231,9 +231,8 @@ class LandingPage extends React.Component {
                                     <h4 style={darkFont}>June 2019 - August 2019</h4>
                                     <p style={darkFont}>
                                       This summer, I will be working at Noblis as a Software Engineering intern specializing
-                                      in data analytics, data visualization, and Machine Learning! I am beyond excited to work
-                                      at Noblis and know that whichever project I work on will benefit our nation's intelligence
-                                      and security endeavors!
+                                      in Machine Learning and Data Analytics! I am beyond excited to work
+                                      at Noblis and know that my work will be benefiting our nation's government!
                                     </p>
                                   </div>
                                 )
@@ -411,7 +410,7 @@ class LandingPage extends React.Component {
                                     to a typical cyberbullying tweet. Our front-end was designed using Bootstrap.css, Chart.js, and
                                     Swiper.js.
                                   </p>
-                                  <Button color="warning" href="https://github.com/nubdub/Website-Dev" target="_blank">
+                                  <Button color="warning" href="https://github.com/tsinghqs/CyberStress" target="_blank">
                                     <i className="fab fa-github"/>Repository</Button>
                                 </div>
                               )

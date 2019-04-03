@@ -78,16 +78,17 @@ class WorkSection extends React.Component {
                     )
                   }}
                 />
-                <GridContainer justify="center">
-                  <GridItem
-                    xs={12}
-                    sm={12}
-                    md={4}
-                    className={classes.textCenter}
-                  >
-                    <Button type="submit" onClick={() => alert('Sending email!')} color="primary">Send Message</Button>
-                  </GridItem>
-                </GridContainer>
+
+              </GridContainer>
+              <GridContainer justify="center">
+                <GridItem
+                  xs={12}
+                  sm={12}
+                  md={4}
+                  className={classes.textCenter}
+                >
+                  <Button type="submit" onClick={() => alert('Sending email!')} color="primary">Send Message</Button>
+                </GridItem>
               </GridContainer>
             </form>
           </GridItem>
