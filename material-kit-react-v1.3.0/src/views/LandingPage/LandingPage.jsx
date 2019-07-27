@@ -91,7 +91,7 @@ class LandingPage extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className="LandingPage-title-1">Welcome to my Page!</h1>
-                <br/>
+                <br />
                 <h4>
                   Computer Science Undergraduate at Virginia Tech.
                 </h4>
@@ -116,13 +116,13 @@ class LandingPage extends React.Component {
                         <GridContainer>
                           <GridItem xs={12} sm={3}>
                             <div>
-                              <img src={Profile} alt="Profile Pic" style={imgSize} className={classes.imgRounded}/>
+                              <img src={Profile} alt="Profile Pic" style={imgSize} className={classes.imgRounded} />
                             </div>
                           </GridItem>
                           <GridItem xs={12} sm={9}>
                             <span>
                               <h4 style={darkFont}>
-                                I am currently a second year student expected to graduate May 2020. I am primarily interested
+                                I am currently a third year student expected to graduate May 2020. I am primarily interested
                                 in Full Stack Development, but I am still in the process of exploring different fields within the Computer Science industry
                                 and I am open to anything. I have a strong background in object oriented programming and my most proficient language is Java.
                                 <br />
@@ -153,8 +153,8 @@ class LandingPage extends React.Component {
                                 tabButton: "VP of Web Development @ VT",
                                 tabContent: (
                                   <div>
-                                    <a href="https://wdvt.github.io/?fbclid=IwAR2BKi4NMP0JBaCE_2-ABNjZljJuxN8ovkMeZ1r57qxGguHJr56QaFGhVGA" target="_blank"><img src={WDVT} style={imgSize} alt="WD@VT"/></a>
-                                    <hr/>
+                                    <a href="https://wdvt.github.io/?fbclid=IwAR2BKi4NMP0JBaCE_2-ABNjZljJuxN8ovkMeZ1r57qxGguHJr56QaFGhVGA" target="_blank"><img src={WDVT} style={imgSize} alt="WD@VT" /></a>
+                                    <hr />
                                     <p style={darkFont}>
                                       WD@VT specializes in teaching beginner web development skills
                                       through weekly workshops where we develop mini projects. As Vice President, I
@@ -171,8 +171,8 @@ class LandingPage extends React.Component {
                                 tabButton: "VTHacks PR Committee",
                                 tabContent: (
                                   <div>
-                                    <a href="https://vthacks.com/" target="_blank"><img style={imgSize} src={VTHacks} alt="VTHacks"/></a>
-                                    <hr/>
+                                    <a href="https://vthacks.com/" target="_blank"><img style={imgSize} src={VTHacks} alt="VTHacks" /></a>
+                                    <hr />
                                     <p style={darkFont}>
                                       VTHacks is the organization responsible for setting up the VTHacks hackathon.
                                       Our hackathon is one of the largest in the Southeast, hosting over 500 participants.
@@ -190,8 +190,8 @@ class LandingPage extends React.Component {
                                 tabButton: "VT CS Student Ambassador",
                                 tabContent: (
                                   <div>
-                                    <img style={imgSize} src={VTCS} alt="VT CS"/>
-                                    <hr/>
+                                    <img style={imgSize} src={VTCS} alt="VT CS" />
+                                    <hr />
                                     <p style={darkFont}>
                                       As a CS Ambassador, I assist the department with their yearly recruiting efforts,
                                       such as volunteering at family information sessions. I also assist with hosting
@@ -221,18 +221,19 @@ class LandingPage extends React.Component {
                           tabs={
                             [
                               {
-                                tabButton: "Machine Learning Intern",
+                                tabButton: "Cyber Defense Analytics Intern",
                                 tabContent: (
                                   <div>
-                                    <img src="https://noblis.org/wp-content/uploads/2017/11/News-RestonMove-1170x600.jpg" alt="Long & Foster" style={imgSize}/>
-                                    <hr/>
+                                    <img src="https://noblis.org/wp-content/uploads/2017/11/News-RestonMove-1170x600.jpg" alt="Long & Foster" style={imgSize} />
+                                    <hr />
                                     <h4 style={darkFont}>Company: Noblis</h4>
                                     <h4 style={darkFont}>Location: Reston, VA</h4>
                                     <h4 style={darkFont}>June 2019 - August 2019</h4>
                                     <p style={darkFont}>
-                                      This summer, I will be working at Noblis as a Software Engineering intern specializing
-                                      in Machine Learning and Data Analytics! I am beyond excited to work
-                                      at Noblis and know that my work will be benefiting our nation's government!
+                                      This past summer, I interned at Noblis, Inc. as a software engineer for their Cyber Defense Analytics mission area. My project was to develop a web application that could visualize suspicious internet communitites in the form of a network graph.
+                                      I worked with another intern and my project manager under an Agile workflow and got used to using JIRA and Confluence. I was primarily responsible for desigining the back-end endpoints and developing the UI while my partner worked on parsing
+                                      20 TB of Common Crawl data, setting up the PostgreSQL database, and implementing the API. Additionally, I trained a neural network that could detect suspicious URLs and integrated it into our network graph application. We were able to deploy our application 
+                                      in a Docker container onto Noblis's servers and present our application to their executive board. Our application will be integrated into various Noblis's various cyber intelligence platforms.
                                     </p>
                                   </div>
                                 )
@@ -241,8 +242,8 @@ class LandingPage extends React.Component {
                                 tabButton: "Software Development Intern",
                                 tabContent: (
                                   <div>
-                                    <img src={LNF} alt="Long & Foster" style={imgSize}/>
-                                    <hr/>
+                                    <img src={LNF} alt="Long & Foster" style={imgSize} />
+                                    <hr />
                                     <h4 style={darkFont}>Company: Long & Foster</h4>
                                     <h4 style={darkFont}>Location: Chantilly, VA</h4>
                                     <h4 style={darkFont}>June 2018 - August 2018</h4>
@@ -260,8 +261,8 @@ class LandingPage extends React.Component {
                                 tabButton: "SWAT Technician",
                                 tabContent: (
                                   <div>
-                                    <img src={Torg} alt="Torgersen Hall" style={imgSize}/>
-                                    <hr/>
+                                    <img src={Torg} alt="Torgersen Hall" style={imgSize} />
+                                    <hr />
                                     <h4 style={darkFont}>Company: VT College of Engineering</h4>
                                     <h4 style={darkFont}>Location: Blacksburg, VA</h4>
                                     <h4 style={darkFont}>August 2018 - Present</h4>
@@ -270,7 +271,7 @@ class LandingPage extends React.Component {
                                       Engineering with software installation, operating system installation, driver
                                       issues, virus removal, network issues, and hardware diagnostics.
                                     </p>
-                                    <br/>
+                                    <br />
                                     <p style={darkFont}>
                                       Maintain and configure computer systems and peripheral devices
                                       for the Engineering Dean's Suite, WARE LaB, and INVENTS Lab while creating and
@@ -283,8 +284,8 @@ class LandingPage extends React.Component {
                                 tabButton: "Undergraduate Research Assistant",
                                 tabContent: (
                                   <div>
-                                    <img src={Bio} alt="VT Biocomplexity Institute" style={imgSize}/>
-                                    <hr/>
+                                    <img src={Bio} alt="VT Biocomplexity Institute" style={imgSize} />
+                                    <hr />
                                     <h4 style={darkFont}>Company: VT Biocomplexity Institute</h4>
                                     <h4 style={darkFont}>Location: Blacksburg, VA</h4>
                                     <h4 style={darkFont}>September 2018 - Present</h4>
@@ -300,8 +301,8 @@ class LandingPage extends React.Component {
                                 tabButton: "Github Organization Coordinator",
                                 tabContent: (
                                   <div>
-                                    <img src={Github} alt="Explore Githbu" style={imgSize}/>
-                                    <hr/>
+                                    <img src={Github} alt="Explore Github" style={imgSize} />
+                                    <hr />
                                     <h4 style={darkFont}>Company: Virginia Tech</h4>
                                     <h4 style={darkFont}>Location: Blacksburg, VA</h4>
                                     <h4 style={darkFont}>December 2018 - Present</h4>
@@ -313,7 +314,7 @@ class LandingPage extends React.Component {
                                   </div>
                                 )
                               },
-                             ]
+                            ]
                           }
                         />
                       )
@@ -326,33 +327,43 @@ class LandingPage extends React.Component {
                           <GridContainer>
                             <GridItem xs={6}>
                               <h4 style={darkFont}>Completed Courses</h4>
-                              <hr/>
+                              <hr />
                               <Badge color="success">CS 1114 Intro to Software Design</Badge>
-                              <br/>
+                              <br />
                               <Badge color="success">CS 2114 Software Design and Data Structures</Badge>
-                              <br/>
+                              <br />
                               <Badge color="success">MATH 2114 Linear Algebra</Badge>
-                              <br/>
+                              <br />
                               <Badge color="success">MATH 2534 Discrete Math</Badge>
-                              <br/>
+                              <br />
                               <Badge color="success">CS 2505 Computer Organization I</Badge>
-                              <br/>
+                              <br />
                               <Badge color="success">CS 2304 Intro to SQL and Database Management</Badge>
-                              <br/>
+                              <br />
                               <Badge color="success">CS 2104 Intro to Problem Solving in CS</Badge>
-                              <br/>
+                              <br />
                               <Badge color="success">MATH 3134 Applied Combinatorics and Graph Theory</Badge>
+                              <br />
+                              <Badge color="success">CS 3114 Data Structures and Algorithms</Badge>
+                              <br />
+                              <Badge color="success">CS 2506 Computer Organization II</Badge>
+                              <br />
+                              <Badge color="success">STAT 4705 Statistics for Engineers</Badge>
+                              <br />
+                              <Badge color="success">MATH 4175 Cryptography I</Badge>
                             </GridItem>
                             <GridItem xs={6}>
                               <h4 style={darkFont}>Currently Enrolled</h4>
-                              <hr/>
-                              <Badge color="info">CS 3114 Data Structures and Algorithms</Badge>
-                              <br/>
-                              <Badge color="info">CS 2506 Computer Organization II</Badge>
-                              <br/>
-                              <Badge color="info">STAT 4705 Statistics for Engineers</Badge>
-                              <br/>
-                              <Badge color="info">MATH 4175 Cryptography I</Badge>
+                              <hr />
+                              <Badge color="info">CS 3214 Computer Systems</Badge>
+                              <br />
+                              <Badge color="info">CS 3304 Comparative Languages</Badge>
+                              <br />
+                              <Badge color="info">CS 3604 Professionalism in Computing</Badge>
+                              <br />
+                              <Badge color="info">MATH 4176 Cryptography II</Badge>
+                              <br />
+                              <Badge color="info">CS 3704 Intermediate Software Design</Badge>
                             </GridItem>
                           </GridContainer>
                           <GridContainer>
@@ -378,10 +389,10 @@ class LandingPage extends React.Component {
                               tabButton: 'Web Development Work',
                               tabContent: (
                                 <div>
-                                  <img src={WebDev} alt="WebDev Repo" style={imgSize}/>
-                                  <hr/>
+                                  <img src={WebDev} alt="WebDev Repo" style={imgSize} />
+                                  <hr />
                                   <p style={darkFont}>This is a directory of all of my Web Development work. I have projects
-                                    from Web Development @ VT meetings to personal work on here!</p><br/>
+                                    from Web Development @ VT meetings to personal work on here!</p><br />
                                   <p style={darkFont}>
                                     Lately, I have been trying to get a handle on React.js. I have been working on creating
                                     a multi-page form where each page is rendered without having to refresh the entire HTML
@@ -389,7 +400,7 @@ class LandingPage extends React.Component {
                                     and child-to-parent data binding.
                                   </p>
                                   <Button color="warning" href="https://github.com/nubdub/Website-Dev" target="_blank">
-                                    <i className="fab fa-github"/>Repository</Button>
+                                    <i className="fab fa-github" />Repository</Button>
                                 </div>
                               )
                             },
@@ -398,12 +409,12 @@ class LandingPage extends React.Component {
                               tabContent: (
                                 <div>
                                   {/*<img src={WebDev} alt="WebDev Repo" style={imgSize}/>*/}
-                                  <hr/>
+                                  <hr />
                                   <p style={darkFont}>CyberStress was our project for HooHacks 2019. Going for their Best
                                   Social Hack challenge, my team of four wanted to create an application that could detect
                                   potential cyberbullying posts on Twitter. Our vision was that parents and school administrators
                                   could use our application as a tool to determine potential cyberbullying attacks and resolve the issues before
-                                  they escalate any further.</p><br/>
+                                  they escalate any further.</p><br />
                                   <p style={darkFont}>
                                     Our project was implemented using a Node.js with Express back-end. We also trained a neural network
                                     using the Google Cloud Platform Natural Language Processing API by feeding it words that related
@@ -411,7 +422,7 @@ class LandingPage extends React.Component {
                                     Swiper.js.
                                   </p>
                                   <Button color="warning" href="https://github.com/tsinghqs/CyberStress" target="_blank">
-                                    <i className="fab fa-github"/>Repository</Button>
+                                    <i className="fab fa-github" />Repository</Button>
                                 </div>
                               )
                             },
@@ -419,8 +430,8 @@ class LandingPage extends React.Component {
                               tabButton: 'Sentimentally',
                               tabContent: (
                                 <div>
-                                  <img style={imgSize} src={Senti} alt="Sentimentally"/>
-                                  <hr/>
+                                  <img style={imgSize} src={Senti} alt="Sentimentally" />
+                                  <hr />
                                   <p style={darkFont}>
                                     Sentimentally is a web application that my team and I developed for PatriotHacks 2018.
                                     Its main purpose is to perform sentiment analysis on Tweets related to a user-inputted term
@@ -439,7 +450,7 @@ class LandingPage extends React.Component {
                                   </p>
                                   <Button color="warning" target="_blank" href="https://devpost.com/software/sentimentally">
                                     <i className="fas fa-code"></i>Sentimentally.py</Button>
-                                  <Button color="warning" target="_blank" href="https://sentimentallyjs.firebaseapp.com"><i className="fas fa-external-link-alt"/>Sentimentally.js</Button>
+                                  <Button color="warning" target="_blank" href="https://sentimentallyjs.firebaseapp.com"><i className="fas fa-external-link-alt" />Sentimentally.js</Button>
                                 </div>
                               )
                             },
@@ -447,8 +458,8 @@ class LandingPage extends React.Component {
                               tabButton: 'Bridge and Torch Calculator',
                               tabContent: (
                                 <div>
-                                  <img style={imgSize} src={Bridge} alt="Bridge and Torch Website"/>
-                                  <hr/>
+                                  <img style={imgSize} src={Bridge} alt="Bridge and Torch Website" />
+                                  <hr />
                                   <p style={darkFont}>
                                     This website was developed as an assignment for CS 2104 Intro to Problem Solving.
                                     The purpose of the assignment is to create a website that solves a famous puzzle, so
@@ -467,8 +478,8 @@ class LandingPage extends React.Component {
                               tabButton: 'Personal Website 1.0',
                               tabContent: (
                                 <div>
-                                  <img src={OldSite} alt="Old Website" style={imgSize}/>
-                                  <hr/>
+                                  <img src={OldSite} alt="Old Website" style={imgSize} />
+                                  <hr />
                                   <p style={darkFont}>
                                     This used to be my personal portfolio website. It was designed during Web Development
                                     @ VT meetings and utilizes Bootstrap.css styling and jQuery for animations. I have moved
@@ -476,7 +487,7 @@ class LandingPage extends React.Component {
                                   </p>
                                   <Button color="warning" href="https://nubdub.github.io" target="_blank">
                                     <i className="fas fa-external-link-alt"></i>Check out my old website!</Button>
-                                  <Button color="warning" href="https://github.com/nubdub/nubdub.github.io" target="_blank"><i className="fab fa-github"/>Repository</Button>
+                                  <Button color="warning" href="https://github.com/nubdub/nubdub.github.io" target="_blank"><i className="fab fa-github" />Repository</Button>
                                 </div>
                               )
                             },
@@ -484,8 +495,8 @@ class LandingPage extends React.Component {
                               tabButton: 'This Website! (Personal Website 2.0)',
                               tabContent: (
                                 <div>
-                                  <img src={NewSite} alt="New Website" style={imgSize}/>
-                                  <hr/>
+                                  <img src={NewSite} alt="New Website" style={imgSize} />
+                                  <hr />
                                   <p style={darkFont}>
                                     This is version 2.0 of my personal website. In an attempt to learn React.js, I came across the
                                     Material UI component library and decided to redesign my website using Material UI, which
@@ -494,7 +505,7 @@ class LandingPage extends React.Component {
                                     my student and professional life.
                                   </p>
                                   <Button color="warning" href="#" target="_blank"><i className="fas fa-redo-alt"></i></Button>
-                                  <Button color="warning" href="https://github.com/nubdub/Personal-Website-2.0" target="_blank"><i className="fab fa-github"/>Repository</Button>
+                                  <Button color="warning" href="https://github.com/nubdub/Personal-Website-2.0" target="_blank"><i className="fab fa-github" />Repository</Button>
                                 </div>
                               )
                             },
@@ -502,13 +513,13 @@ class LandingPage extends React.Component {
                               tabButton: 'Other Stuff',
                               tabContent: (
                                 <div>
-                                  <img src={Other} alt="Git Profile" style={imgSize}/>
-                                  <hr/>
+                                  <img src={Other} alt="Git Profile" style={imgSize} />
+                                  <hr />
                                   <p style={darkFont}>
                                     Feel free to check out some of my other projects on Github! I have projects that have dealt
                                     with database work, trying out Spring Boot, Android development, etc.
                                   </p>
-                                  <Button color="warning" href="https://github.com/nubdub/" target="_blank"><i className="fab fa-github"/>Repository</Button>
+                                  <Button color="warning" href="https://github.com/nubdub/" target="_blank"><i className="fab fa-github" />Repository</Button>
                                 </div>
                               )
                             }
@@ -577,9 +588,9 @@ class LandingPage extends React.Component {
                     {
                       tabButton: "Contact",
                       tabIcon: Contact,
-                      tabContent: (<WorkSection/>)
+                      tabContent: (<WorkSection />)
                     }
-                    ]
+                  ]
                   }
                 />
               </GridItem>
