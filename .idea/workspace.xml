@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b2f3f25-7133-42a8-a92d-a3803b735bfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/Sections/WorkSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/Sections/WorkSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material-kit-react-v1.3.0/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/material-kit-react-v1.3.0/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,17 +18,17 @@
     <session id="204415168">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="4" />
+          <entry key="ESLintLanguageService" value="5" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -80,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/LandingPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="840">
               <caret line="233" column="76" selection-start-line="233" selection-start-column="76" selection-end-line="233" selection-end-column="76" />
               <folding>
                 <element signature="e#225#268#0" expanded="true" />
@@ -220,10 +219,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="275" />
-    <option name="y" value="485" />
+    <option name="x" value="544" />
+    <option name="y" value="29" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,11 +320,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Web Development/webjot_starter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="E:\portfolio_template_2.0\material-kit-react-v1.3.0\node_modules\eslint" />
@@ -375,19 +374,19 @@
       <workItem from="1547129097711" duration="9970000" />
       <workItem from="1553610982634" duration="2138000" />
       <workItem from="1554209328403" duration="24000" />
-      <workItem from="1554317399466" duration="685000" />
+      <workItem from="1554317399466" duration="1285000" />
+      <workItem from="1554660882304" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32359000" />
+    <option name="totallyTimeSpent" value="32989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10958904" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22181243" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -515,6 +514,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/Sections/WorkSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LoginPage/LoginPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
@@ -578,16 +584,9 @@
     <entry file="file://$PROJECT_DIR$/material-kit-react-v1.3.0/src/components/Header/Header.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/Sections/WorkSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/material-kit-react-v1.3.0/src/views/LandingPage/LandingPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="840">
           <caret line="233" column="76" selection-start-line="233" selection-start-column="76" selection-end-line="233" selection-end-column="76" />
           <folding>
             <element signature="e#225#268#0" expanded="true" />

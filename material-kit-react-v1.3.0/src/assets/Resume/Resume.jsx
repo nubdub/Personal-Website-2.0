@@ -7,7 +7,7 @@ class Resume extends React.component {
 
   render() {
     return (
-      <embed src="College Resume 2018-19.pdf" type="application/pdf"/>
+      <embed src="Nabdeep Shrestha.pdf" type="application/pdf"/>
     );
   }
 

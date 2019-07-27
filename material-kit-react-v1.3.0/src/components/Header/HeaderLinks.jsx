@@ -17,7 +17,7 @@ import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
-import Resume from "assets/Resume/College Resume 2018-19.pdf";
+import Resume from "assets/Resume/Nabdeep Shrestha.pdf";
 
 
 function HeaderLinks({ ...props }) {
